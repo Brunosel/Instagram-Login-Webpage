@@ -1,0 +1,38 @@
+.insta-wrap {
+    display: flex;
+    max-width: 935px;
+    max-height: 625px;
+    margin: auto;
+}
+
+.insta-phone {
+    
+}
+
+.insta-continue {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    max-height: 581px;
+}
+
+.profile-image {
+
+}
+
+.profile-image img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.logo {
+
+}
+
+.box {
+
+}
+
+.badges {
+
+}
