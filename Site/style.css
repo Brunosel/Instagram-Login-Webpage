@@ -29,17 +29,14 @@ body {
 }
 
 .insta-phone {
-    margin-right: 32px;
-    margin-bottom: 12px;
-}
-
-.phone-image {
     display: flex;
     width: 388px;
     height: 585px;
     align-items: flex-end;
     justify-content: flex-end;
     background-image: url('img/background-image/background-image.png');
+    margin-right: 32px;
+    margin-bottom: 12px;
 }
 
 .front-image {
@@ -50,8 +47,66 @@ body {
     position: relative;
 }
 
-.fader::after {
-    
+
+.fade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('img/screenshots/screenshot-1.png');
+    animation-name: animation;
+    animation-duration: 17s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes animation
+{
+    0%
+    {
+        opacity: 0;
+    }
+    10%
+    {
+        opacity: 0;
+    }
+    20%
+    {
+        opacity: 0;
+    }
+    30%
+    {
+        opacity: 0.5;
+    }
+    40%
+    {
+        opacity: 1;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    60%
+    {
+        opacity: 1;
+    }
+    70%
+    {
+        opacity: 1;
+    }
+    80%
+    {
+        opacity: 1;
+    }
+    90%
+    {
+        opacity: 0.5;
+    }
+    100%
+    {
+        opacity: 0;
+    }
 }
 
 .insta-continue {
