@@ -1,38 +1,143 @@
+p {
+    font-family: -apple-system, system-ui;
+    font-size: 14px;
+}
+
+a {
+    font-family: -apple-system, system-ui;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 14px;
+}
+
+.back-color {
+    background-color: #fafafa;
+    margin: 0;
+}
+
 .insta-wrap {
     display: flex;
     max-width: 935px;
     max-height: 625px;
     margin: auto;
+    margin-top: 32px;
+    justify-content: center;
+    padding-bottom: 32px ;
 }
 
 .insta-phone {
-    
+    margin-right: 32px;
+    margin-bottom: 12px;
+}
+
+.phone-image {
+    width: 388px;
+    height: 583px;
 }
 
 .insta-continue {
     display: flex;
     flex-direction: column;
     max-width: 350px;
-    max-height: 581px;
-}
-
-.profile-image {
-
-}
-
-.profile-image img {
-    width: 20%;
-    border-radius: 50%;
-}
-
-.logo {
-
+    max-height: 581.15px;
+    width: 100%;
 }
 
 .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.first {
+    margin-top: 12px;
+}
+
+.logo {
+    align-self: center;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.profile-image {
+    display: flex;
+}
+
+.profile-image img {
+    align-self: center;
+    max-width: 120px;
+    border-radius: 50%;
+}
+
+.button {
 
 }
 
+.bruno-image {
+    align-self: center;
+}
+
+.account {
+    margin-bottom: 3px;
+}
+
+.not-account {
+    margin-top: 0px;
+}
+
 .badges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+}
+
+.badges img {
+    max-width: 136px;
+    max-height: 40px;
+}
+
+.footer {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 52px;
+}
+
+.refs-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 935px;
+    margin-top: 16px;
+}
+
+.refs-box-box {
+    display: flex;
+    height: 23px;
+}
+
+.foot-ref {
+    font-size: 12px;
+    flex-shrink: 0;
+    font-weight: 400;
+    color: #8e8e8e;
+    margin: 0 8px 10px 8px;
+}
+
+.copy-box {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 15px;
+    height: 11px;
 
 }
