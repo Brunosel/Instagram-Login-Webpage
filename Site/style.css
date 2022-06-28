@@ -34,8 +34,24 @@ body {
 }
 
 .phone-image {
+    display: flex;
     width: 388px;
-    height: 583px;
+    height: 585px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-image: url('img/background-image/background-image.png');
+}
+
+.front-image {
+    margin-right: 24px;
+    margin-bottom: 17px;
+    height: 541px;
+    width: 250px;
+    position: relative;
+}
+
+.fader::after {
+    
 }
 
 .insta-continue {
